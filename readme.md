@@ -147,11 +147,4 @@ for each unmatched donation:
 - Emergency contacts are hardcoded static information
 - No mapping services, notification systems, or payment processing
 
-### Default Credentials
-- **Admin Account** (pre-loaded):
-  - Username: `admin`
-  - Password: `admin123`
-  - Role: ADMIN
-  - Location: Central Command
-
 **Design Decision**: The absence of external service dependencies makes the application more resilient during crisis situations when internet connectivity or third-party services may be unreliable. In-memory storage allows deployment without database infrastructure setup.
